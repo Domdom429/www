@@ -1,0 +1,20 @@
+<!-- tab used to add new tasks -->
+<ion-view view-title="Add task">
+  <ion-content>
+      
+      <!-- for user to input new tasks to be added to the tasks tab of the app -->
+    <div class="list">       
+      <label class="item item-input item-stacked-label">
+        <span class="input-label">Enter the task you wish to do?</span>
+        <input type="text" ng-model="data.newTask" placeholder="Enter a task here">   
+        </label>  
+    </div>
+
+      
+      <!-- when this button is pressed it adds the inputed text in the tasks tab -->
+    <button class="button button-full button-positive" ng-click="addTask()">
+      Add
+    </button>
+    
+  </ion-content>
+</ion-view>
